@@ -8,7 +8,7 @@ const cors = require("cors");
 mongoose.Promise = global.Promise;
 mongoose
   .connect(
-    "mongodb+srv://harsh:xvaKups0KVUzRvTn@sihcluster.zfhwc.mongodb.net/SIH"
+    "<REPLACE WITH YOUR DB URL>"
   )
   .then(() => {
     console.log("Connected to database!");
